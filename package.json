@@ -1,0 +1,21 @@
+{
+  "name": "simple-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@prisma/client": "^4.9.0-integration-feat-client-ext-generic-type-api.17"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.9.0-integration-feat-client-ext-generic-type-api.17",
+    "prisma": "4.9.0-integration-feat-client-ext-generic-type-api.17",
+    "typescript": "^4.9.4"
+  }
+}
